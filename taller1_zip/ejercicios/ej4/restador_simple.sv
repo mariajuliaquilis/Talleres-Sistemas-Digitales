@@ -5,4 +5,7 @@ module restador_simple (
     output logic bout
 );
   // completar los assign
+  assign diff = a ^ b; //diferencia
+  assign bout = ~a & b; //préstamo
+
 endmodule
