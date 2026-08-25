@@ -5,4 +5,7 @@ module formula_and_or_not (
     output logic f
 );
   // completar con &, | y ~
+  assign f = (x | y) & (x | ~y) & (x | z);
+  //assign f = x;
+  
 endmodule
