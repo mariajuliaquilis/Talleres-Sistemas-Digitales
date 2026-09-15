@@ -3,4 +3,5 @@ module zero_4b (
     output logic zero
 );
   // COMPLETAR: Indicar si dato es cero.
+  assign zero = (dato == 4'b0000);
 endmodule
